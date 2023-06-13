@@ -1,4 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body{
+    background-color: #e5e5e5;
+}
+
+header{
+    text-align: center;
+    padding: 10px;
+}
+
+header img{
+    max-width: 900px;
+    width: 100%;
+}
+
+/* Search Section */
+.searchSection{
+    padding: 10px;
+}
+
+.number{
+    
+}
 
 .img1{
  display: none;
