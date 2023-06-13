@@ -24,11 +24,13 @@ let number = ""
 
         poke.innerHTML = `
         <div class="card" id="${pokemon.id} " >
-            <h2>${pokemon.name}</h2>
+            
             <p>${pokemon.id}</p>
         
             <img class="img1 active" src="${pokemon.sprites.other.dream_world.front_default}" alt="${pokemon.name}">
             <img class="img2" src="${pokemon.sprites.other.home.front_shiny}" alt="${pokemon.name}">
+
+            <h2>${pokemon.name}</h2>
         </div>
         `
         pokeContainer.appendChild(poke)

@@ -24,11 +24,75 @@ header img{
 }
 
 .number{
-    
+    width: 130px;
+    height: 40px;
+    padding: 5px;
 }
+
+
+
+
+
+
+/* Card */
+.pokemon-list{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.card{
+    width: 250px;
+    height: 440px;
+    margin: 10px;
+    box-shadow: 0 0 10px black;
+
+
+
+}
+
+.card p{
+    height: 40px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #141414;
+    color: wheat;
+}
+
+.card img{
+    width: 250px;
+    padding: 30px;
+    height: 350px ;
+    object-fit: contain;
+}
+
+.card h2{
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-style: italic;
+    text-transform: uppercase;
+    background-color: #141414;
+    color: wheat;
+}
+
+
+
+
+
+
 
 .img1{
  display: none;
+ 
 }
 
 .img2{
