@@ -2,15 +2,14 @@
 
 const pokeContainer = document.querySelector(".pokemon-list")
 const url = "https://pokeapi.co/api/v2/pokemon"
-let requiredNumber = document.querySelector(".number")
+let requiredNumber = document.querySelector("form")
 let number = ""
 
+requiredNumber.addEventListener("submit", (e) => {
+    e.preventDefault()
 
-// Zjištění čísla z políčka pro počet pokemonů
-    requiredNumber.addEventListener("input", (e) => {
-        number = e.target.value
-
-    // Získání všech pokemonu
+    number = e.target.elements.searchNumber.value
+        // Získání všech pokemonu
     const getAllPokemon = async () =>{
 
     // Cyklus na projetí všech pokemonu za lomítkem
@@ -42,8 +41,8 @@ getAllPokemon()
 
     })
 
-   
-    
+
+
 
 
 
