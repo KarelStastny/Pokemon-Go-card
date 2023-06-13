@@ -1,0 +1,13 @@
+
+
+.img1{
+ display: none;
+}
+
+.img2{
+    display: none;
+}
+
+.active{
+    display: block;
+}
