@@ -20,23 +20,86 @@ header img{
 
 /* Search Section */
 .searchSection{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    
+
+}
+
+
+.search{
+    outline: none;
+    padding: 5px 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px;
 }
 
 .number{
-    width: 130px;
-    height: 40px;
-    padding: 5px;
+    outline: none;
+    padding: 5px 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px;
+
 }
 
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
+.find{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: #4a73f8;
+    margin: 30px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.changeButton{
+    border: none;
+    outline: none;
+    background-color: #4a73f8;
+    margin: 30px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.instructions{
+    font-size: 20px;
+    background-color: #4a73f8;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
 
 
 
 
 /* Card */
 .pokemon-list{
-    max-width: 1200px;
+    max-width: 1700px;
     width: 100%;
     margin: 0 auto;
 
@@ -101,4 +164,14 @@ header img{
 
 .active{
     display: block;
+}
+
+.hide{
+    display: none;
+}
+
+@media only screen and (max-width: 900px){
+    .searchSection{
+        flex-direction: column;
+    }
 }

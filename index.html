@@ -15,27 +15,18 @@
     </header>
 
     <section class="searchSection">
+        <form>
+            <input name="searchNumber" class="number" min="1" type="number" placeholder="Počet pokemonů" >
+            <input class="find" type="submit" value="Find">
+        </form>
         <input type="text" class="search" placeholder="Jméno Pokemona">
 
-        <form action="">
-            <input name="searchNumber" class="number" min="1" type="number" placeholder="Počet Pokemonů">
-            <input type="submit">
-        </form>
+        <button class="changeButton" onclick="changeImg()">Change image</button>
 
-        <button class="changeButton" onclick="changeImg()">Shine forma</button>
+
     </section>
 
-
-
-
-    
-
-    <ul class="pokemon-list">
-
-    </ul>
-
- 
-
+    <ul class="pokemon-list"></ul>
 
     <script src="script.js"></script>
 </body>
